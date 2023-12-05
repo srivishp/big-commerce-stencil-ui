@@ -1,4 +1,18 @@
-# Cornerstone
+# Stencil UI by BigCommerce
+## Pre-requisites
+### Install Chocolatey
+iex ((New-Object System.Net.WebClient).DownloadString("https://chocolatey.org/install.ps1"))
+ 
+### Install git if you don't have it
+choco install git
+ 
+### Install nvm windows and stencil-compatible node.js
+ 
+choco install nvm; nvm install 18.15.0; nvm use 18.15.0
+ 
+### Install Stencil CLI
+npm install -g @bigcommerce/stencil-cli
+## Cornerstone
 ![tests](https://github.com/bigcommerce/cornerstone/workflows/Theme%20Bundling%20Test/badge.svg?branch=master)
 
 Stencil's Cornerstone theme is the building block for BigCommerce theme developers to get started quickly developing premium quality themes on the BigCommerce platform.
