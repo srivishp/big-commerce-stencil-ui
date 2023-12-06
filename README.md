@@ -12,7 +12,12 @@ choco install nvm; nvm install 18.15.0; nvm use 18.15.0
  
 ### Install Stencil CLI
 npm install -g @bigcommerce/stencil-cli
-## Cornerstone
+
+## Technology Stack 
+### Handlebars
+* https://handlebarsjs.com/guide/
+* https://developer.bigcommerce.com/docs/storefront/stencil/themes/context/handlebars-reference
+# Cornerstone
 ![tests](https://github.com/bigcommerce/cornerstone/workflows/Theme%20Bundling%20Test/badge.svg?branch=master)
 
 Stencil's Cornerstone theme is the building block for BigCommerce theme developers to get started quickly developing premium quality themes on the BigCommerce platform.
